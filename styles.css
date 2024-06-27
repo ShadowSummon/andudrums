@@ -39,6 +39,25 @@ input, button {
     margin-right: auto;
 }
 
+.button-link {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 5px;
+    background-color: #f5f5dc; /* Beige */
+    color: #000000; /* Black text */
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #c0c0c0; /* Metallic light grey */
+    font-size: 1em; /* Matching your form's font size */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #c0c0c0; /* Metallic light grey */
+    color: #f5f5dc; /* Beige text */
+}
+
 input {
     border: 2px solid #c0c0c0; /* silvery metallic light grey */
     background: transparent;
